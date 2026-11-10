@@ -1,0 +1,10 @@
+# Local build outputs stay out of the build context: build.sh recreates them in the image.
+mayhem/build/
+/fuzz_archive
+/fuzz_archive-standalone
+/fuzz_decoder
+/fuzz_decoder-standalone
+**/__pycache__/
+.DS_Store
+*.swp
+*~
